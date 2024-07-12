@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5F634F;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.login{
+    width: 50%;
+    height: 70%;
+    background-color: #757780;
+    border: 2px solid white;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+}
+.login h1{
+    font-size: 3vw;
+    color: #DBEFBC;
+}
+.login form{
+    display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+}
+input{
+    padding: 10px 20px;
+    border: none;
+    border-radius:  5px;
+}
+.input{
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #000; */
+}
+.login form input[type="submit"]{
+    padding: 10px 20px;
+    background-color: #001011;
+    color: #DBEFBC;
+    border: none;
+    transition:.4s all ease-in;
+    border-radius: 5px;
+}
+.login form input[type="submit"]:hover{
+    padding: 10px 20px;
+    background-color: #DBEFBC;
+    cursor: pointer;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+}
